@@ -1,0 +1,13 @@
+// Mixin para centralizar conteúdo
+.center-content() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  // Mixin para botão hover
+.button-hover(@color-hover) {
+    &:hover {
+    background-color: @color-hover;
+    }
+}
